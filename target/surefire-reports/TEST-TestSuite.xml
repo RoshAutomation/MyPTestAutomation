@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="3" name="TestSuite" time="617.895" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="MyPTestAutomationJob"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\Roshan Kumar Gupta\.jenkins"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="e07513f258ba0173"/>
+    <property name="POM_ARTIFACTID" value="MyPTestAutomation"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_111\lib\resources.jar;C:\Program Files\Java\jre1.8.0_111\lib\rt.jar;C:\Program Files\Java\jre1.8.0_111\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_111\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_111\lib\jce.jar;C:\Program Files\Java\jre1.8.0_111\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_111\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_111\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="MyPTestAutomation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\ROSHAN~1\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="user.name" value="Roshan Kumar Gupta"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="MyPTestAutomationJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/MyPTestAutomationJob/19/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#19"/>
+    <property name="OneDrive" value="C:\Users\Roshan Kumar Gupta\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_111\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Roshan Kumar Gupta\AppData\Local"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="PROCESSOR_LEVEL" value="21"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="Roshan Kumar Gupta"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="classpath" value=""/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_111\lib\endorsed"/>
+    <property name="BUILD_ID" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="PYTHON_HOME" value="C:\Python36-32"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\Roshan Kumar Gupta\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_111"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="=ExitCode" value="00000001"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/MyPTestAutomationJob/19/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="configsetroot" value="C:\WINDOWS\ConfigSetRoot"/>
+    <property name="TMP" value="C:\Users\ROSHAN~1\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/MyPTestAutomationJob/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="LAPTOP-P9SL0QAP"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_111"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\Roshan Kumar Gupta"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="LAPTOP-P9SL0QAP"/>
+    <property name="POM_GROUPID" value="MyPartner"/>
+    <property name="user.home" value="C:\Users\Roshan Kumar Gupta"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-MyPTestAutomationJob-19"/>
+    <property name="JENKINS_SERVER_COOKIE" value="e07513f258ba0173"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\Roshan Kumar Gupta"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Roshan Kumar Gupta\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Python36-32;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Roshan Kumar Gupta\AppData\Local\Microsoft\WindowsApps;C:\Users\Roshan Kumar Gupta\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\Roshan Kumar Gupta\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\Roshan Kumar Gupta\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.class.path" value="C:\Users\Roshan Kumar Gupta\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Users\Roshan Kumar Gupta\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.5.2.jar;C:\Users\Roshan Kumar Gupta\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Roshan Kumar Gupta\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\Roshan Kumar Gupta\.jenkins\war\WEB-INF\lib\remoting-3.23.jar C:\Users\Roshan Kumar Gupta\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Roshan Kumar Gupta\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 61659"/>
+    <property name="Path" value="C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Python36-32;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Roshan Kumar Gupta\AppData\Local\Microsoft\WindowsApps;C:\Users\Roshan Kumar Gupta\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PROCESSOR_IDENTIFIER" value="AMD64 Family 21 Model 96 Stepping 1, AuthenticAMD"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\Roshan Kumar Gupta\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="=D:" value="D:\Softwares"/>
+    <property name="java.io.tmpdir" value="C:\Users\ROSHAN~1\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\Roshan Kumar Gupta\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\Roshan Kumar Gupta\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_111\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\Roshan Kumar Gupta\workspace\MyPTestAutomation"/>
+    <property name="LOGONSERVER" value="\\LAPTOP-P9SL0QAP"/>
+    <property name="USERDOMAIN" value="LAPTOP-P9SL0QAP"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\Roshan Kumar Gupta\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="19"/>
+    <property name="PROCESSOR_REVISION" value="6001"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\Roshan Kumar Gupta\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Users\Roshan Kumar Gupta\.jenkins\workspace\MyPTestAutomationJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Roshan Kumar Gupta\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase classname="com.qa.testcases.HomePageTest" name="homePageTitleTest" time="36.564"/>
+  <testcase classname="com.qa.testcases.ProvideJourneyTest" name="ProvideWithEasy" time="247.199">
+    <failure message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[.=&apos;Carte d’identité / passeport / titre de séjour délivré par une autorité belge&apos;]&quot;}
+Command duration or timeout: 40.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;LAPTOP-P9SL0QAP&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 92d31cd0-b2ef-4ecd-9c24-bf797ad40baf
+*** Element info: {Using=xpath, value=//span[.=&apos;Carte d’identité / passeport / titre de séjour délivré par une autorité belge&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[.=&apos;Carte d’identité / passeport / titre de séjour délivré par une autorité belge&apos;]&quot;}
+Command duration or timeout: 40.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;LAPTOP-P9SL0QAP&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 92d31cd0-b2ef-4ecd-9c24-bf797ad40baf
+*** Element info: {Using=xpath, value=//span[.=&apos;Carte d’identité / passeport / titre de séjour délivré par une autorité belge&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.qa.pages.FirstForm.FForm(FirstForm.java:101)
+	at com.qa.testcases.ProvideJourneyTest.ProvideWithEasy(ProvideJourneyTest.java:66)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[.=&apos;Carte d’identité / passeport / titre de séjour délivré par une autorité belge&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;LAPTOP-P9SL0QAP&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ROSHAN~1/AppData/Local/Temp/anonymous1533766002099465576webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ROSHAN~1/AppData/Local/Temp/anonymous1533766002099465576webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+</failure>
+    <system-out>Before navigating to: &apos;https://u5486311:Aa123456@unitt-acc3-web.mptest.be/fr/care_contact_center_27.php&apos;
+Navigated to:&apos;https://u5486311:Aa123456@unitt-acc3-web.mptest.be/fr/care_contact_center_27.php&apos;
+Trying to find Element By : By.xpath: //a[@id=&apos;Tab3&apos;]
+Found Element By : By.xpath: //a[@id=&apos;Tab3&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //a[@id=&apos;Tab3&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //a[@id=&apos;Tab3&apos;]]
+Trying to find Element By : By.xpath: //span[.=&apos;Change BSCS Code&apos;]
+Found Element By : By.xpath: //span[.=&apos;Change BSCS Code&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //span[.=&apos;Change BSCS Code&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //span[.=&apos;Change BSCS Code&apos;]]
+{d5472b21-b2d0-442f-a61f-d44e24bb866a}
+{d5472b21-b2d0-442f-a61f-d44e24bb866a}
+{38904b09-e9b1-418e-a353-cd4a883079f7}
+Change BSCS Code
+Trying to find Element By : By.xpath: //input[@name=&apos;aramis&apos;]
+Found Element By : By.xpath: //input[@name=&apos;aramis&apos;]
+Value of the:[[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //input[@name=&apos;aramis&apos;]] before any changes made
+Element value changed to: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //input[@name=&apos;aramis&apos;]]
+Trying to find Element By : By.xpath: //a/span/span/span[.=&apos;Search&apos;]
+Found Element By : By.xpath: //a/span/span/span[.=&apos;Search&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //a/span/span/span[.=&apos;Search&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //a/span/span/span[.=&apos;Search&apos;]]
+Trying to find Element By : By.xpath: //a/span/span/span[.=&apos;CALLI003&apos;]
+Found Element By : By.xpath: //a/span/span/span[.=&apos;CALLI003&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //a/span/span/span[.=&apos;CALLI003&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //a/span/span/span[.=&apos;CALLI003&apos;]]
+Trying to find Element By : By.xpath: //a[@id=&apos;Tab6&apos;]
+Found Element By : By.xpath: //a[@id=&apos;Tab6&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //a[@id=&apos;Tab6&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //a[@id=&apos;Tab6&apos;]]
+{d5472b21-b2d0-442f-a61f-d44e24bb866a}
+{d5472b21-b2d0-442f-a61f-d44e24bb866a}
+{ba2c0377-2616-4115-bc02-07cb84248b25}
+:: Webforms ::
+Trying to find Element By : By.xpath: //a[@id=&apos;flow_11&apos;]
+Found Element By : By.xpath: //a[@id=&apos;flow_11&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //a[@id=&apos;flow_11&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //a[@id=&apos;flow_11&apos;]]
+Trying to find Element By : By.xpath: //a[@id=&apos;bloc_1&apos;]
+Found Element By : By.xpath: //a[@id=&apos;bloc_1&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //a[@id=&apos;bloc_1&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //a[@id=&apos;bloc_1&apos;]]
+Trying to find Element By : By.xpath: //input[@id=&apos;buspriv963&apos;]
+Found Element By : By.xpath: //input[@id=&apos;buspriv963&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //input[@id=&apos;buspriv963&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //input[@id=&apos;buspriv963&apos;]]
+Trying to find Element By : By.xpath: .//*[@id=&apos;form1&apos;]/div[2]/div[13]/div[2]/span/label[2]
+Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;form1&apos;]/div[2]/div[13]/div[2]/span/label[2]&quot;}
+Command duration or timeout: 40.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;LAPTOP-P9SL0QAP&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 92d31cd0-b2ef-4ecd-9c24-bf797ad40baf
+*** Element info: {Using=xpath, value=.//*[@id=&apos;form1&apos;]/div[2]/div[13]/div[2]/span/label[2]}
+false
+Trying to find Element By : By.xpath: //input[@id=&apos;clitel_tele&apos;]
+Found Element By : By.xpath: //input[@id=&apos;clitel_tele&apos;]
+Value of the:[[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //input[@id=&apos;clitel_tele&apos;]] before any changes made
+Element value changed to: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //input[@id=&apos;clitel_tele&apos;]]
+Trying to find Element By : By.xpath: //*[@data-id=&apos;id_id_type&apos;]
+Found Element By : By.xpath: //*[@data-id=&apos;id_id_type&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //*[@data-id=&apos;id_id_type&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (92d31cd0-b2ef-4ecd-9c24-bf797ad40baf)] -&gt; xpath: //*[@data-id=&apos;id_id_type&apos;]]
+Trying to find Element By : By.xpath: //span[.=&apos;Carte d’identité / passeport / titre de séjour délivré par une autorité belge&apos;]
+Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[.=&apos;Carte d’identité / passeport / titre de séjour délivré par une autorité belge&apos;]&quot;}
+Command duration or timeout: 40.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;LAPTOP-P9SL0QAP&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 92d31cd0-b2ef-4ecd-9c24-bf797ad40baf
+*** Element info: {Using=xpath, value=//span[.=&apos;Carte d’identité / passeport / titre de séjour délivré par une autorité belge&apos;]}
+</system-out>
+  </testcase>
+  <testcase classname="com.qa.testcases.ProvideJourneyTest" name="ProvideWithEasy" time="266.011">
+    <failure message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;clitel_tele&apos;]&quot;}
+Command duration or timeout: 40.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;LAPTOP-P9SL0QAP&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2bd2be74-8613-4b90-932a-8376bb7300c8
+*** Element info: {Using=xpath, value=//input[@id=&apos;clitel_tele&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;clitel_tele&apos;]&quot;}
+Command duration or timeout: 40.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;LAPTOP-P9SL0QAP&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2bd2be74-8613-4b90-932a-8376bb7300c8
+*** Element info: {Using=xpath, value=//input[@id=&apos;clitel_tele&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.qa.pages.FirstForm.FForm(FirstForm.java:98)
+	at com.qa.testcases.ProvideJourneyTest.ProvideWithEasy(ProvideJourneyTest.java:66)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;clitel_tele&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;LAPTOP-P9SL0QAP&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ROSHAN~1/AppData/Local/Temp/anonymous8601286970228598425webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ROSHAN~1/AppData/Local/Temp/anonymous8601286970228598425webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+</failure>
+    <system-out>Before navigating to: &apos;https://u5486311:Aa123456@unitt-acc3-web.mptest.be/fr/care_contact_center_27.php&apos;
+Navigated to:&apos;https://u5486311:Aa123456@unitt-acc3-web.mptest.be/fr/care_contact_center_27.php&apos;
+Trying to find Element By : By.xpath: //a[@id=&apos;Tab3&apos;]
+Found Element By : By.xpath: //a[@id=&apos;Tab3&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //a[@id=&apos;Tab3&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //a[@id=&apos;Tab3&apos;]]
+Trying to find Element By : By.xpath: //span[.=&apos;Change BSCS Code&apos;]
+Found Element By : By.xpath: //span[.=&apos;Change BSCS Code&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //span[.=&apos;Change BSCS Code&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //span[.=&apos;Change BSCS Code&apos;]]
+{5aa98784-328e-4fa7-b56b-0183a296bc7f}
+{5aa98784-328e-4fa7-b56b-0183a296bc7f}
+{184b38a4-8bac-4d29-af8f-b325fb72e697}
+Change BSCS Code
+Trying to find Element By : By.xpath: //input[@name=&apos;aramis&apos;]
+Found Element By : By.xpath: //input[@name=&apos;aramis&apos;]
+Value of the:[[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //input[@name=&apos;aramis&apos;]] before any changes made
+Element value changed to: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //input[@name=&apos;aramis&apos;]]
+Trying to find Element By : By.xpath: //a/span/span/span[.=&apos;Search&apos;]
+Found Element By : By.xpath: //a/span/span/span[.=&apos;Search&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //a/span/span/span[.=&apos;Search&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //a/span/span/span[.=&apos;Search&apos;]]
+Trying to find Element By : By.xpath: //a/span/span/span[.=&apos;jmichiel&apos;]
+Found Element By : By.xpath: //a/span/span/span[.=&apos;jmichiel&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //a/span/span/span[.=&apos;jmichiel&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //a/span/span/span[.=&apos;jmichiel&apos;]]
+Trying to find Element By : By.xpath: //a[@id=&apos;Tab6&apos;]
+Found Element By : By.xpath: //a[@id=&apos;Tab6&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //a[@id=&apos;Tab6&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //a[@id=&apos;Tab6&apos;]]
+{5aa98784-328e-4fa7-b56b-0183a296bc7f}
+{5aa98784-328e-4fa7-b56b-0183a296bc7f}
+{3c4e52df-72f5-4502-b260-925d760b3bca}
+:: Webforms ::
+Trying to find Element By : By.xpath: //a[@id=&apos;flow_11&apos;]
+Found Element By : By.xpath: //a[@id=&apos;flow_11&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //a[@id=&apos;flow_11&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //a[@id=&apos;flow_11&apos;]]
+Trying to find Element By : By.xpath: //a[@id=&apos;bloc_1&apos;]
+Found Element By : By.xpath: //a[@id=&apos;bloc_1&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //a[@id=&apos;bloc_1&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //a[@id=&apos;bloc_1&apos;]]
+Trying to find Element By : By.xpath: //input[@id=&apos;buspriv963&apos;]
+Found Element By : By.xpath: //input[@id=&apos;buspriv963&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //input[@id=&apos;buspriv963&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (2bd2be74-8613-4b90-932a-8376bb7300c8)] -&gt; xpath: //input[@id=&apos;buspriv963&apos;]]
+Trying to find Element By : By.xpath: .//*[@id=&apos;form1&apos;]/div[2]/div[13]/div[2]/span/label[2]
+Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;form1&apos;]/div[2]/div[13]/div[2]/span/label[2]&quot;}
+Command duration or timeout: 40.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;LAPTOP-P9SL0QAP&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2bd2be74-8613-4b90-932a-8376bb7300c8
+*** Element info: {Using=xpath, value=.//*[@id=&apos;form1&apos;]/div[2]/div[13]/div[2]/span/label[2]}
+false
+Trying to find Element By : By.xpath: //input[@id=&apos;clitel_tele&apos;]
+Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;clitel_tele&apos;]&quot;}
+Command duration or timeout: 40.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;LAPTOP-P9SL0QAP&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2bd2be74-8613-4b90-932a-8376bb7300c8
+*** Element info: {Using=xpath, value=//input[@id=&apos;clitel_tele&apos;]}
+</system-out>
+  </testcase>
+  <testcase classname="com.qa.testcases.HomePageTest" name="mainPageTitleTest" time="68.121">
+    <failure message="expected [:: Webforms ::] but found [My Partner &gt; Tools &gt; Care @ Contact Center]" type="java.lang.AssertionError">java.lang.AssertionError: expected [:: Webforms ::] but found [My Partner &gt; Tools &gt; Care @ Contact Center]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.qa.testcases.HomePageTest.mainPageTitleTest(HomePageTest.java:42)
+</failure>
+    <system-out>Before navigating to: &apos;https://u5486311:Aa123456@unitt-acc3-web.mptest.be/fr/care_contact_center_27.php&apos;
+Navigated to:&apos;https://u5486311:Aa123456@unitt-acc3-web.mptest.be/fr/care_contact_center_27.php&apos;
+Trying to find Element By : By.xpath: //a[@id=&apos;Tab6&apos;]
+Found Element By : By.xpath: //a[@id=&apos;Tab6&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (9b7a3f9f-5e32-4a77-b0be-dd4b9a2a15cb)] -&gt; xpath: //a[@id=&apos;Tab6&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (9b7a3f9f-5e32-4a77-b0be-dd4b9a2a15cb)] -&gt; xpath: //a[@id=&apos;Tab6&apos;]]
+{f1929d2a-37a1-4c38-bee1-364dd7cf7518}
+{f1929d2a-37a1-4c38-bee1-364dd7cf7518}
+{6488786d-6d2a-4ee4-b296-47765031cbd2}
+:: Webforms ::
+Trying to find Element By : By.xpath: //a[@id=&apos;flow_11&apos;]
+Found Element By : By.xpath: //a[@id=&apos;flow_11&apos;]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (9b7a3f9f-5e32-4a77-b0be-dd4b9a2a15cb)] -&gt; xpath: //a[@id=&apos;flow_11&apos;]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (9b7a3f9f-5e32-4a77-b0be-dd4b9a2a15cb)] -&gt; xpath: //a[@id=&apos;flow_11&apos;]]
+{6488786d-6d2a-4ee4-b296-47765031cbd2}
+{f1929d2a-37a1-4c38-bee1-364dd7cf7518}
+My Partner &gt; Tools &gt; Care @ Contact Center
+{6488786d-6d2a-4ee4-b296-47765031cbd2}
+My Partner &gt; Tools &gt; Care @ Contact Center
+</system-out>
+  </testcase>
+</testsuite>
